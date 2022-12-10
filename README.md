@@ -95,7 +95,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Project Update Details
 
-- this is the setup of CRA create reacts app
+- in this update i've added onClick events to the calculator buttons and given them logic as mentioned in this third/3rd project milestone
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
