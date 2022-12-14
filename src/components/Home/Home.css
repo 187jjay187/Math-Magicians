@@ -1,0 +1,22 @@
+.home {
+  padding: 100px;
+  height: calc(100vh - 72px);
+  background-color: hsla(241, 100%, 50%, 1);
+  background-image:
+    radial-gradient(at 69% 89%, hsla(20, 98%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 2%, hsla(331, 73%, 60%, 1) 0, transparent 50%),
+    radial-gradient(at 46% 0%, hsla(143, 94%, 75%, 1) 0, transparent 50%),
+    radial-gradient(at 92% 15%, hsla(289, 77%, 71%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0, transparent 50%),
+    radial-gradient(at 9% 100%, hsla(242, 100%, 70%, 1) 0, transparent 50%);
+}
+
+.home p {
+  width: 90%;
+  line-height: 28px;
+  background-color: white;
+  border: black;
+  border-style: solid;
+}
+

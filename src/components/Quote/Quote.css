@@ -1,0 +1,39 @@
+/* quote background */
+.quote {
+  height: calc(100vh - 72px);
+  background-color: hsla(241, 100%, 50%, 1);
+  background-image:
+    radial-gradient(at 69% 89%, hsla(119, 98%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 2%, hsla(70, 73%, 60%, 1) 0, transparent 50%),
+    radial-gradient(at 46% 0%, hsla(242, 94%, 75%, 1) 0, transparent 50%),
+    radial-gradient(at 92% 15%, hsla(28, 77%, 71%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(288, 100%, 56%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(94, 100%, 93%, 1) 0, transparent 50%),
+    radial-gradient(at 9% 100%, hsla(341, 100%, 70%, 1) 0, transparent 50%);
+}
+
+/* frames */
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+
+/* quote paragraph */
+.quote p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 170px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #000;
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+  .quote {
+    height: calc(100vh - 53px);
+  }
+}
