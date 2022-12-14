@@ -18,7 +18,16 @@
 }
 
 .container {
-  color: var(--black);
+  /* color: var(--black); */
+  background-color: hsla(241, 100%, 50%, 1);
+  background-image:
+    radial-gradient(at 69% 89%, hsla(156, 98%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 2%, hsla(107, 73%, 60%, 1) 0, transparent 50%),
+    radial-gradient(at 46% 0%, hsla(279, 94%, 75%, 1) 0, transparent 50%),
+    radial-gradient(at 92% 15%, hsla(65, 77%, 71%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(325, 100%, 56%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(131, 100%, 93%, 1) 0, transparent 50%),
+    radial-gradient(at 9% 100%, hsla(18, 100%, 70%, 1) 0, transparent 50%);
 }
 
 .Calculator {
@@ -30,6 +39,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#detail {
+  background-color: hsla(241, 100%, 50%, 1);
+  background-image:
+    radial-gradient(at 69% 89%, hsla(156, 98%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 2%, hsla(107, 73%, 60%, 1) 0, transparent 50%),
+    radial-gradient(at 46% 0%, hsla(279, 94%, 75%, 1) 0, transparent 50%),
+    radial-gradient(at 92% 15%, hsla(65, 77%, 71%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(325, 100%, 56%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(131, 100%, 93%, 1) 0, transparent 50%),
+    radial-gradient(at 9% 100%, hsla(18, 100%, 70%, 1) 0, transparent 50%);
 }
 
 .row {
@@ -80,4 +101,29 @@
 
 .zero {
   width: 50%;
+}
+
+#error-page {
+  background-color: hsla(0, 100%, 50%, 1);
+  background-image:
+    radial-gradient(at 100% 98%, hsla(119, 98%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 2%, hsla(70, 73%, 60%, 1) 0, transparent 50%),
+    radial-gradient(at 48% 50%, hsla(94, 100%, 93%, 1) 0, transparent 50%);
+  height: 100vh;
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+#error-page h1 {
+  font-size: 100px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}
+
+#error-page p {
+  font-weight: 400;
 }
